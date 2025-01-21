@@ -8,7 +8,10 @@ A: The files that contain both the compiled code and the resources that are used
 
 
 ### Q: What is an Artifact repository?
-A: An artifact repository (or binary repository) is designed to house, manage, version, and deploy various types of artifacts from a central location. It helps store and share artifacts with all developers on a project and different tools needed in typical CI/CD processes.
+A: An artifact repository (or binary repository) is designed to house, manage, version, and deploy various types of artifacts from a central location. It helps store and share artifacts with all developers on a project and different tools needed in typical CI/CD processes.Artifact repositories are widely considered the best solution for managing an ever-expanding number of artifacts.
+
+![image](https://github.com/user-attachments/assets/20bda40c-450b-4cdf-b373-d49ca78d2666)
+
 
 ### Q: Why are artifact repositories considered the best solution for managing artifacts?
 A: Artifact repositories are the best solution because they help manage, version, and deploy artifacts across development teams and multiple sites while ensuring quality, reliability, and auditability.
