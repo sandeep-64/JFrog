@@ -19,6 +19,9 @@ A: Artifact repositories are the best solution because they help manage, version
 ### Q: What is JFrog Artifactory?
 A: JFrog Artifactory is a universal DevOps solution for hosting, managing, and distributing binaries and artifacts. It can host any type of software in binary form, such as application installers, container images, libraries, configuration files, etc.
 
+![image](https://github.com/user-attachments/assets/f3e68678-563d-4d3c-b1dc-802552ce50fe)
+
+
 ### Q: Why is it called "Artifactory"?
 A: The name "Artifactory" reflects its purpose of hosting any type of "artifact" needed in your software development "factory." It serves as a central repository for all artifacts produced during the software development and delivery process.
 
