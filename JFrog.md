@@ -4,7 +4,8 @@ A: The files that contain both the compiled code and the resources that are used
 - In NPM: .tar.gz files
 - In .NET: .dll files
 
-!image[https://miro.medium.com/v2/resize:fit:1100/format:webp/1*JBokGMaugRlacpGDzitiHQ.png]
+![image](https://github.com/user-attachments/assets/2bd85b69-bf58-4961-8f4b-f5abc901d7ce)
+
 
 ### Q: What is an Artifact repository?
 A: An artifact repository (or binary repository) is designed to house, manage, version, and deploy various types of artifacts from a central location. It helps store and share artifacts with all developers on a project and different tools needed in typical CI/CD processes.
