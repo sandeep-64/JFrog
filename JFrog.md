@@ -40,3 +40,81 @@ A: Artifactory can manage any software in binary form, including:
 - Libraries
 - Configuration files
 - Any complementary information necessary to configure or manage software
+
+
+### Q: What is JFrog Artifactory?
+A: JFrog Artifactory is a universal DevOps solution designed to host, manage, and distribute binaries and artifacts. It serves as the central hub for all DevOps security and processes, handling various types of binary files including installers, container images, and configuration files.
+
+### Q: What are the main benefits and features of JFrog Artifactory?
+A: The key benefits and features include:
+- Hybrid and Multi-Cloud Environment support
+- Universal Binary Repository Manager supporting all major package formats
+- Extensive Metadata support
+- Kubernetes Registry capabilities
+- Massive Scalability
+- Replication options
+- High Availability with active/active solution
+- Advanced CI Server integration
+- Custom API-Driven Automation
+- Advanced Search with AQL (Artifactory Query Language)
+- Cloud CDN Distribution
+
+### Q: How can DevOps teams use Artifactory?
+A: DevOps teams use Artifactory in several ways:
+- As a central repository for storing and managing binaries and artifacts
+- For managing the entire binary lifecycle (creation to archival)
+- As a proxy for public repositories with caching
+- For implementing consistent security measures
+- For quick detection and resolution of vulnerabilities
+
+### Q: What are the different repository types in Artifactory?
+A: Artifactory has three main repository types:
+1. Local repositories (managed locally)
+2. Remote repositories (act as caching proxies)
+3. Virtual repositories (combine local and remote repositories into a single URL)
+
+### Q: What is the recommended naming convention for repositories in Artifactory?
+A: The recommended four-part naming convention is:
+<team>-<technology>-<maturity>-<locator>
+Example:
+First, yourcompany-docker-dev-local
+Second, yourcompany-docker-test-local
+Third, yourcompany-docker-stage-local
+Fourth, yourcompany-docker-prod-local
+
+### Q: How does Artifactory handle different development lifecycle stages?
+A: Artifactory creates separate repositories for each development stage, typically:
+- Development (dev)
+- Testing (test)
+- Staging (stage)
+- Production (prod)
+
+### Q: What are the variants of JFrog Artifactory available?
+A: JFrog Artifactory is available in three variants:
+1. On-premise
+2. Cloud
+3. Hybrid models
+
+### Q: How does Artifactory handle artifact promotion between stages?
+A: Artifactory uses tags and metadata instead of physically moving artifacts. It:
+- Tags artifacts with metadata for different stages
+- Uses promotion properties to assign permissions
+- Allows automation through development tool integrations
+- Enables REST API for automated promotion tasks
+
+### Q: What makes Artifactory massively scalable?
+A: Artifactory achieves massive scalability through:
+- Enterprise storage options (S3, Google Cloud, Azure Blob)
+- Filestore Sharding
+- Horizontal scaling capabilities
+- High-performance handling of loads
+- Disaster recovery options
+
+### Q: How does Artifactory support package management?
+A: Artifactory supports all major package formats including:
+- Maven, Gradle
+- Docker
+- NPM
+- NuGet
+- Python
+- And many more (25+ package types)
